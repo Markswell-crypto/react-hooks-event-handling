@@ -2,7 +2,7 @@ import React from "react";
 
 function ChangeItUp() {
   function handleChange(event) {
-    console.log(`${event.target.name}: ${event.target.value}`);
+    alert(`${event.target.name}: ${event.target.value}`);
   }
 
   return (
